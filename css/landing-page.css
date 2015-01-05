@@ -166,14 +166,13 @@ p.copyright {
 }
 
 #profile-pic{
-    border: 2px solid #dddddd;
-    background: #ffffff;
-    width: 200px;
-    height: 200px;
+    background-image: url(../img/profile-pic.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border: 1px solid #dddddd;
+    width: 220px;
+    height: 220px;
     z-index: 0;
-}
-#pro-pic{
-    z-index: ;
-    width: 200px;
-    height: 200px;
+    text-align: center;
 }
