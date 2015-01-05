@@ -166,24 +166,20 @@ p.copyright {
 }
 
 #profile-pic{
-    border: 1px solid #dddddd;
-    padding: 10px;
-    background: transparent;
+    border: 50px solid #dddddd;
+    background: #ffffff;
     -ms-transform: rotate(45deg); /* IE 9 */
     -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-    transform: rotate(45deg);*/
+    transform: rotate(45deg);
     width: 200px;
     height: 200px;
-    z-index: 9;
+    z-index: 0;
 }
-#test{
-    width: 200px;
-    background: url('../img/profile-pic.jpg') ;
-    height: 200px;
-}
-#profile-pic .test{
+#pro-pic{
     -ms-transform: rotate(315deg) !important; /* IE 9 */
     -webkit-transform: rotate(315deg) !important; /* Chrome, Safari, Opera */
     transform: rotate(315deg) !important;
-    z-index: 0;
+    z-index: ;
+    width: 200px;
+    height: 200px;
 }
