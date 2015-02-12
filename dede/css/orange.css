@@ -1,0 +1,154 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body {font-family:Arial, Helvetica, sans-serif;font-size:16px;margin:0px;padding:0px;}
+ul li, ol li, div, p, span {font-family:Arial, Helvetica, sans-serif;font-size:16px;color:#333333;}
+p,span 	{line-height:24px;}
+
+img {border:none;display:block;}
+
+h1	{font-family:Arial, Helvetica, sans-serif;font-size:24px;color:#ff6600;font-weight:normal;}
+h2	{font-family:Arial, Helvetica, sans-serif;font-size:18px;color:#ff6600;font-weight:normal;}
+h3	{font-family:Arial, Helvetica, sans-serif;font-size:16px;color:#ff6600;font-weight:bold;}
+h4	{font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#ff6600;font-weight:normal;}
+h5	{font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#ff6600;font-weight:bold;}
+
+.head-grey-upper{font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:bold;text-transform:uppercase;}
+.head-grey-b	{font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:bold;}
+.text-grey		{font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:normal;}
+
+.orange-text {color:#ff6600;}
+.orange-small-text {font-size:14px; color:#ff6600;}
+.grey-small-text {font-size:12px;line-height:15px;}
+
+a	{font-family:Arial, Helvetica, sans-serif;font-size:16px;color:#ff6600;text-decoration:none;}
+a.styleone	{font-family:Arial, Helvetica, sans-serif;font-size:16px;font-weight:bold;color:#ff6600;text-decoration:underline;}
+
+.float-r	{float:right;}
+.float-l	{float:left;}
+.clr		{clear:both;}
+
+
+#wrapper {width:940px;margin:0 auto;}
+.topbar {padding:30px 0px;display:block;height:50px;}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color:#dddddd;	
+}
+.menu li {
+	float: left;
+}
+.menu li a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:14px;
+    display: block;
+	padding:8px 20px 8px;
+    text-decoration:none;
+	color:#333;
+}
+.menu li a:hover {
+	background-image:url('../images/icon-arrow-menu.png');background-repeat:no-repeat;background-position:center bottom;
+	
+}
+.menu li a.active {
+	font-weight:bold;background-image:url('../images/icon-arrow-menu.png');background-repeat:no-repeat;background-position:center bottom;
+}
+
+
+.home-banner		{background-image:url('../images/home-masthead.jpg');background-repeat:no-repeat;background-position:top left;width:940px;height:300px;display:block;}
+.registration-banner{background-image:url('../images/registration-masthead.jpg');background-repeat:no-repeat;background-position:top left;width:940px;height:270px;display:block;}
+.registration-thank-you-banner{background-image:url('../images/registration-thank-you-masthead.jpg');background-repeat:no-repeat;background-position:top left;width:940px;height:270px;display:block;}
+.agenda-banner		{background-image:url('../images/event-agenda-masthead.jpg');background-repeat:no-repeat;background-position:top left;width:940px;height:270px;display:block;}
+.hotel-banner		{background-image:url('../images/hotel-travel-masthead.jpg');background-repeat:no-repeat;background-position:top left;width:940px;height:270px;display:block;}
+.photo-gallery-banner{background-image:url('../images/photo-gallery-masthead.jpg');background-repeat:no-repeat;background-position:top left;width:940px;height:270px;display:block;}
+.evaluation-banner{background-image:url('../images/evaluation-masthead.jpg');background-repeat:no-repeat;background-position:top left;width:940px;height:270px;display:block;}
+
+
+.countdown-container {float:right;}
+.content	{padding:30px 0 0;}
+.inner-content {margin:30px 0 0;padding:0 160px 0;}
+
+.event-bg {background-image:url('../images/event-bg.jpg');background-repeat:no-repeat;background-position:top left;width:940px;height:800px;display:block;}
+.event-info {padding:35px 30px 0px;}
+.event-info p, 
+.event-info ul li {font-size:14px;line-height:20px;}
+.event-date p {width:100px;float:left;color:#ff6600;}
+.event-desc {width:460px;float:left;}
+.event-desc ul {margin-bottom:0px;padding:0px;}
+.event-desc ul li {padding-bottom:10px;}
+
+.agenda-list	{padding-bottom:1px;}
+.agenda-list p  {font-size:16px;line-height:14px;}
+.agenda-list div {margin-left:150px;}
+.agenda-list table {
+		font-size:16px;
+		line-height:30px;
+		text-size-adjust: none;
+		-moz-text-size-adjust: none;
+		-ms-text-size-adjust: none;
+		-webkit-text-size-adjust: none;
+	}
+
+.agenda-list ul {line-height: 14px;padding:0}
+.agenda-list li {font-weight: normal;padding:15px 0 0 0}
+.agenda-list li:first-child{padding:0;}
+
+.l-content	{width:610px;float:left;margin-right:20px;}
+.l-content p{font-size:16px;line-height:24px;}
+.r-content	{width:287px;float:left;background-color:#eeeeee;padding:20px 8px 20px 15px;}
+
+.section	{margin-top:15px;}
+.section p	{font-size:14px;line-height:20px;margin:7px 0px;padding:0px;}
+.section p.ophr	{margin:20px 0px;}
+
+.emergency-l{width:187px;float:left;margin-right:0px;}
+.emergency-r{width:100px;float:right;}
+.emergency-l p, .emergency-r p {font-size:14px;line-height:20px;margin:3px 0px;padding:0px;}
+
+.tablestyle	{font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:20px;}
+.tablestyle	th {padding:10px;background-color:#eeeeee;font-weight:bold;border-top:1px solid #cccccc;border-bottom:1px solid #cccccc;}
+.tablestyle	th.border-r{border-right:1px solid #cccccc;}
+.tablestyle	td {padding:3px;text-align:center;color:#333;border-bottom:1px solid #ddd;}
+.tablestyle	td.alt {background:#f5f5f5;}
+
+.sponsor {padding-top:20px;}
+.copyright {margin-top:20px;padding:20px 0;border-top:1px solid #ccc;font-size:11px;color:#000000;}
+
+div .is-loading {background-color: #fff;background-image: url('../images/loading.gif');background-repeat: no-repeat;background-position: center center;-webkit-transition: opacity 0.4s;-moz-transition: opacity 0.4s;-ms-transition: opacity 0.4s;transition: opacity 0.4s;display: block;}
+
+#containerz {
+	width:955px; height:100%; min-height:400px; position:relative; 
+}
+#containerz .item {
+	width: 25%;
+	overflow: hidden;
+	float: left;
+	line-height: 0;
+	height: auto;
+	padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
